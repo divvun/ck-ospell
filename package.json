@@ -13,7 +13,7 @@
     "chokidar": "^3.5.1",
     "ckeditor4": "^4.17.0",
     "divvunspell": "git+https://github.com/divvun/divvunspell-sdk-nodejs.git#master",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "lodash": "^4.17.21",
     "morgan": "^1.10.0",
     "request": "^2.88.2"
