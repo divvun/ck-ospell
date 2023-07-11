@@ -11,7 +11,7 @@
   "dependencies": {
     "bluebird": "^3.7.2",
     "chokidar": "^3.5.1",
-    "ckeditor4": "^4.17.0",
+    "ckeditor4": "^4.18.0",
     "divvunspell": "git+https://github.com/divvun/divvunspell-sdk-nodejs.git#master",
     "express": "^4.17.3",
     "lodash": "^4.17.21",
