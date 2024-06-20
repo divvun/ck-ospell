@@ -1,5 +1,5 @@
 const test = require("ava");
-const request = require("supertest-as-promised");
+const request = require("supertest");
 const express = require("express");
 const { response } = require("express");
 
