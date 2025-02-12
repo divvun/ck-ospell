@@ -13,8 +13,9 @@ server.use("/spellcheck/lf/giella3/ckgiella",
   express.static(path.join(__dirname, "public"))
 );
 
-server.use("/ckeditor",
-  express.static(path.join(__dirname, "node_modules/ckeditor"))
+server.use(
+  "/ckeditor",
+  express.static(path.join(__dirname, "node_modules/ckeditor4"))
 );
 
 server.use(express.static(
