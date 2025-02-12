@@ -2,16 +2,16 @@
 
 This project contains a server based on Node.js that enables you to use the spellcheck-as-you-type extions for CKEditor with [hfst-ospell](https://github.com/hfst/hfst-ospell) dictionaries.
 
-The server auto loads dictionary files. It means that languages are *added, updated or removed* when *dictionaries are added to or removed from* the dictionary directory.
+The server auto loads dictionary files. It means that languages are _added, updated or removed_ when _dictionaries are added to or removed from_ the dictionary directory.
 
 ## Install
 
 - Go to <https://rustup.rs> and install the stable Rust toolchain.
 
 ```sh
-$ git submodule init
-$ git submodule update
-$ npm install
+git submodule init
+git submodule update
+npm install
 ```
 
 ## Running Example
@@ -19,7 +19,7 @@ $ npm install
 To get see an example, just run
 
 ```sh
-$ npm start
+npm start
 ```
 
 and open <http://localhost:3000/> in your browser.
@@ -45,9 +45,9 @@ You can find several dictionaries on [divvun.no](http://www.divvun.no/korrektur/
 Assuming you accept the respective licensing terms, you can e.g. use
 
 ```sh
-$ curl http://divvun.no/static_files/zhfsts/se.zhfst > "etc/sme_NO.zhfst"
-$ curl http://divvun.no/static_files/zhfsts/smj.zhfst > "etc/smj_NO.zhfst"
-$ curl http://divvun.no/static_files/zhfsts/sma.zhfst > "etc/sma_NO.zhfst"
+curl http://divvun.no/static_files/zhfsts/se.zhfst > "etc/sme_NO.zhfst"
+curl http://divvun.no/static_files/zhfsts/smj.zhfst > "etc/smj_NO.zhfst"
+curl http://divvun.no/static_files/zhfsts/sma.zhfst > "etc/sma_NO.zhfst"
 ```
 
 to download the files for Northern, South, and Lule Sámi.
