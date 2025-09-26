@@ -1,0 +1,4 @@
+[Unit]
+Description=Restart ck-ospell
+[Service]
+ExecStart=/bin/systemctl --user restart ck-ospell

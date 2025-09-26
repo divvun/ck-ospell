@@ -1,0 +1,7 @@
+[Unit]
+Description=Check ck-ospell health every 2 hours
+[Timer]
+OnCalendar=*-*-* 0/2:17:00
+Persistent=true
+[Install]
+WantedBy=timers.target
