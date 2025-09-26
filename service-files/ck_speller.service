@@ -1,0 +1,19 @@
+[Unit]
+Description=Online spell checker for fst based speller
+Documentation=https://github.com/divvun/ck-ospell
+After=network.target
+
+[Service]
+# The place ck-ospell has been checked out
+WorkingDirectory=%h/ck-ospell/
+# Leave this as is
+Environment="NODE_VERSION=16.20.2"
+Environment="NODE_PORT=3001"
+# The directory where speller files live, change this as needed
+Environment="CKOSPELL_LANG_PATH=spellers"
+Type=simple
+ExecStart=%h/.nvm/nvm-exec node .
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
