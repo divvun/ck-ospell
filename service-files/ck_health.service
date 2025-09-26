@@ -3,4 +3,4 @@ Description=Restart ck-ospell if health check fails
 OnFailure=ck_restart.service
 [Service]
 Type=oneshot
-ExecStart=$h/ck-ospell/check_languages.sh 3000 user@example.com
+ExecStart=%h/ck-ospell/check_languages.sh 3000 user@example.com
